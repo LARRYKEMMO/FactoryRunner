@@ -7,10 +7,12 @@ public class GameManager : MonoBehaviour
     public float restartDelay = 1f;
     public GameObject startScreen;
     public GameObject player;
+    public ShakeCamera shakeCamera;
 
     private void Awake()
     {
         startScreen.SetActive(true);
+        shakeCamera = FindObjectOfType<ShakeCamera>();
     }
 
     private void Update()
@@ -37,6 +39,7 @@ public class GameManager : MonoBehaviour
     public void EndGame()
     {
         if(gameOver) return;
+        shakeCamera.shake = true;
         gameOver = true;
         Invoke("Restart", restartDelay);
     }
