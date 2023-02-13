@@ -20,9 +20,8 @@ public class Particles : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground") && !collided)
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            collided = true;
             groundParticles.Play();
         }
 

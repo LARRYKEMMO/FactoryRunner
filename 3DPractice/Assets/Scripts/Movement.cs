@@ -8,11 +8,11 @@ public class Movement : MonoBehaviour
     [SerializeField]private int sidewardSpeed;
     private Rigidbody rb;
     private float dirX;
-    private Obstacles obstacles;
+    private SpawnObjects obstacles;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        obstacles = FindObjectOfType<Obstacles>();
+        obstacles = FindObjectOfType<SpawnObjects>();
     }
 
     void Update()
@@ -25,8 +25,7 @@ public class Movement : MonoBehaviour
         //seperate force for forward becasue I don't want velocity change
         //rb.AddForce(0, 0, forwardSpeed * Time.fixedDeltaTime);
         //move obstacles backward
-        Debug.Log("here23");
-        obstacles.move(forwardSpeed);
+        if(obstacles != null) obstacles.move(forwardSpeed);
         if(dirX != 0)
         {
             rb.AddForce(dirX * sidewardSpeed * Time.fixedDeltaTime, 0, 0, ForceMode.VelocityChange);
