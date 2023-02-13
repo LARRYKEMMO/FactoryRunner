@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="01fd5085-9fd6-4c98-a5e9-b2d38f95873e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/3DPractice/.vs/3DPractice/FileContentIndex/1e8a7fbc-0cc3-4352-9fd0-58559f9d1abf.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/.vs/3DPractice/FileContentIndex/7b6144af-3cc5-4c9b-a43b-50259148a675.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/.vs/3DPractice/FileContentIndex/f228bf37-66ae-4c9e-91ad-9c4eab10d144.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Animations/Dying Backwards.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Animations/Dying Backwards.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Animations/Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Animations/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Animations/PlayerController.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Animations/PlayerController.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Animations/Running.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Animations/Running.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1001_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1001_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1001_Glossiness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1001_Glossiness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1001_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1001_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1001_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1001_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1002_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1002_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1002_Glossiness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1002_Glossiness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1002_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1002_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1002_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbm/Ch06_1002_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Dying Backwards.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1001_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1001_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1001_Glossiness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1001_Glossiness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1001_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1001_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1001_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1001_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1002_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1002_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1002_Glossiness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1002_Glossiness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1002_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1002_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1002_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbm/Ch06_1002_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Idle.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1001_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1001_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1001_Glossiness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1001_Glossiness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1001_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1001_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1001_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1001_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1002_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1002_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1002_Glossiness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1002_Glossiness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1002_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1002_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1002_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbm/Ch06_1002_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Ch06_nonPBR@Running.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Materials/Ch06_1001_Diffuse.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Materials/Ch06_1001_Diffuse.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Materials/Ch06_1002_Diffuse.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Mixamo/Materials/Ch06_1002_Diffuse.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Box.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Box.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Covered boxes.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Covered boxes.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Pallet and Boxes.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Pallet and Boxes.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Pallet and covered boxes.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Pallet and covered boxes.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Pallet.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Pallet.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Res.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Res/Boxes.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Res/Boxes.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Res/Boxes.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Res/Boxes.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Res/Boxes_on_pallet0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Res/Boxes_on_pallet0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Res/Boxes_on_pallet1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Res/Boxes_on_pallet1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Res/Fab.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/Res/Fab.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/SmallBox.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Objects/Boxes and pallets/SmallBox.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Prefabs/Box_labeled.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Prefabs/Box_labeled.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Scenes/Copy_SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Scenes/SampleScene 1.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Scripts/AnimationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Scripts/AnimationController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Prefabs/Obstacle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Prefabs/Obstacle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Scenes/SampleScene 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Scenes/Copy_SampleScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Scripts/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Scripts/Obstacles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Scripts/Obstacles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3DPractice/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3DPractice/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LhVsF70yLfDSTCMyF18UXUmRlA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01fd5085-9fd6-4c98-a5e9-b2d38f95873e" name="Changes" comment="" />
+      <created>1676323507437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676323507437</updated>
+      <workItem from="1676323510565" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
