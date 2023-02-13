@@ -25,11 +25,15 @@ public class Movement : MonoBehaviour
         //seperate force for forward becasue I don't want velocity change
         //rb.AddForce(0, 0, forwardSpeed * Time.fixedDeltaTime);
         //move obstacles backward
+        Debug.Log("here23");
         obstacles.move(forwardSpeed);
         if(dirX != 0)
-            rb.AddForce( dirX * sidewardSpeed * Time.fixedDeltaTime , 0, 0, ForceMode.VelocityChange);
+        {
+            rb.AddForce(dirX * sidewardSpeed * Time.fixedDeltaTime, 0, 0, ForceMode.VelocityChange);
+    
+        }
 
 
-        
+
     }
 }

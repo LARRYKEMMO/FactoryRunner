@@ -42,7 +42,6 @@ public class Obstacles : MonoBehaviour
        
         int randomObstacle = Random.Range(0, obstaclePrefabs.Count);
         obstacleList.Add(Instantiate(obstaclePrefabs[randomObstacle], spawnPoint.position, Quaternion.identity));
-        Debug.Log(obstacleList[obstacleList.Count - 1].transform.position.z);
         obstacleList[obstacleList.Count - 1].transform.SetParent(this.transform);
         delay = Random.Range(delayRange.x, delayRange.y);
 
