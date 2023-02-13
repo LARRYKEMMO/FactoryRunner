@@ -111,15 +111,11 @@
       <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Scenes/SampleScene 1.unity.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Scripts/AnimationController.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/3DPractice/Assets/Scripts/AnimationController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Prefabs/Obstacle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Prefabs/Obstacle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Scenes/SampleScene 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Scenes/Copy_SampleScene.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Scripts/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Scripts/Obstacles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Scripts/Obstacles.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3DPractice/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/Assets/Scripts/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3DPractice/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3DPractice/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/3DPractice/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676323507437</updated>
-      <workItem from="1676323510565" duration="598000" />
+      <workItem from="1676323510565" duration="1226000" />
     </task>
     <servers />
   </component>
