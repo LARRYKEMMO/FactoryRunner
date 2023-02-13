@@ -8,9 +8,11 @@ public class Player : MonoBehaviour
     [SerializeField] private TextMeshProUGUI scoretext;
     private GameManager gameManager;
     public Vector3 collisionForce;
+    public Animator animator;
     void Start()
     {
         gameManager = FindAnyObjectByType<GameManager>();
+        //animator = gameManager.GetComponent<Animator>();
     }
 
     void Update()
@@ -26,8 +28,16 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacle"))
         {
             collision.gameObject.GetComponent<Rigidbody>().AddForce(collisionForce);
+            DisplayEndAnimation();
             gameManager.EndGame();
         }
 
+    }
+
+    public void DisplayEndAnimation()
+    {
+        animator.SetBool("IsRunning", false);
+        animator.SetBool("IsDeath", true);
+        
     }
 }

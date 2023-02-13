@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+
         startScreen.SetActive(true);
         shakeCamera = FindObjectOfType<ShakeCamera>();
     }
