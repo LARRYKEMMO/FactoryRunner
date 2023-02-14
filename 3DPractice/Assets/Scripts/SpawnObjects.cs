@@ -56,7 +56,6 @@ public class SpawnObjects : MonoBehaviour
         for (int i = obstacleList.Count - 1; i >= 0; i--)
         {
             obstacleList[i].GetComponent<Rigidbody>().AddForce(0, 0, -speed * Time.fixedDeltaTime);
-            Debug.Log("Here");
         }
 
     }
