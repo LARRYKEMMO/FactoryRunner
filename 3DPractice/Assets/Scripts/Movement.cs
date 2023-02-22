@@ -14,9 +14,11 @@ public class Movement : MonoBehaviour
     private SpawnObjects obstacles;
     private Building building;
     private bool jump;
+    private Animator animator;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
         obstacles = FindObjectOfType<SpawnObjects>();
         building = FindObjectOfType<Building>();
     }
@@ -26,6 +28,8 @@ public class Movement : MonoBehaviour
         dirX = Input.GetAxis("Horizontal");
         if (Input.GetKeyDown(KeyCode.Space) && !jump)
         {
+            animator.SetBool("IsRunning", false);
+            animator.SetBool("IsJumping", true);
             jump = true;
         }
     }
@@ -43,6 +47,11 @@ public class Movement : MonoBehaviour
         }
 
         bool isGrounded = Physics.Raycast(transform.position, Vector3.down, 0.1f);
+        if (isGrounded)
+        {
+            animator.SetBool("IsRunning", true);
+            animator.SetBool("IsJumping", false);
+        }
         if (jump && isGrounded)
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);

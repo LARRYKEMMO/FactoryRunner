@@ -1,71 +1,174 @@
 fileFormatVersion: 2
 guid: 1cb9b014d5c442f4ba45f61cf46282c8
-timeCreated: 1460109707
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Box
-    100002: Box_labeled
-    100004: //RootNode
-    100006: Camera
-    100008: Covered_boxes
-    100010: Covered_boxes2
-    100012: Lamp
-    100014: Pallet
-    100016: Pallet3
-    100018: Small_box
-    400000: Box
-    400002: Box_labeled
-    400004: //RootNode
-    400006: Camera
-    400008: Covered_boxes
-    400010: Covered_boxes2
-    400012: Lamp
-    400014: Pallet
-    400016: Pallet3
-    400018: Small_box
-    2300000: Box
-    2300002: Box_labeled
-    2300004: Covered_boxes
-    2300006: Covered_boxes2
-    2300008: Pallet
-    2300010: Pallet3
-    2300012: Small_box
-    3300000: Box
-    3300002: Box_labeled
-    3300004: Covered_boxes
-    3300006: Covered_boxes2
-    3300008: Pallet
-    3300010: Pallet3
-    3300012: Small_box
-    4300000: Pallet3
-    4300002: Small_box
-    4300004: Box_labeled
-    4300006: Box
-    4300008: Pallet
-    4300010: Covered_boxes2
-    4300012: Covered_boxes
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Box
+  - first:
+      1: 100002
+    second: Box_labeled
+  - first:
+      1: 100004
+    second: //RootNode
+  - first:
+      1: 100006
+    second: Camera
+  - first:
+      1: 100008
+    second: Covered_boxes
+  - first:
+      1: 100010
+    second: Covered_boxes2
+  - first:
+      1: 100012
+    second: Lamp
+  - first:
+      1: 100014
+    second: Pallet
+  - first:
+      1: 100016
+    second: Pallet3
+  - first:
+      1: 100018
+    second: Small_box
+  - first:
+      4: 400000
+    second: Box
+  - first:
+      4: 400002
+    second: Box_labeled
+  - first:
+      4: 400004
+    second: //RootNode
+  - first:
+      4: 400006
+    second: Camera
+  - first:
+      4: 400008
+    second: Covered_boxes
+  - first:
+      4: 400010
+    second: Covered_boxes2
+  - first:
+      4: 400012
+    second: Lamp
+  - first:
+      4: 400014
+    second: Pallet
+  - first:
+      4: 400016
+    second: Pallet3
+  - first:
+      4: 400018
+    second: Small_box
+  - first:
+      23: 2300000
+    second: Box
+  - first:
+      23: 2300002
+    second: Box_labeled
+  - first:
+      23: 2300004
+    second: Covered_boxes
+  - first:
+      23: 2300006
+    second: Covered_boxes2
+  - first:
+      23: 2300008
+    second: Pallet
+  - first:
+      23: 2300010
+    second: Pallet3
+  - first:
+      23: 2300012
+    second: Small_box
+  - first:
+      33: 3300000
+    second: Box
+  - first:
+      33: 3300002
+    second: Box_labeled
+  - first:
+      33: 3300004
+    second: Covered_boxes
+  - first:
+      33: 3300006
+    second: Covered_boxes2
+  - first:
+      33: 3300008
+    second: Pallet
+  - first:
+      33: 3300010
+    second: Pallet3
+  - first:
+      33: 3300012
+    second: Small_box
+  - first:
+      43: 4300000
+    second: Pallet3
+  - first:
+      43: 4300002
+    second: Small_box
+  - first:
+      43: 4300004
+    second: Box_labeled
+  - first:
+      43: 4300006
+    second: Box
+  - first:
+      43: 4300008
+    second: Pallet
+  - first:
+      43: 4300010
+    second: Covered_boxes2
+  - first:
+      43: 4300012
+    second: Covered_boxes
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cover
+    second: {fileID: 2100000, guid: 209c40b82ed34194abf4fbaa05a41b6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_Default
+    second: {fileID: 2100000, guid: 209c40b82ed34194abf4fbaa05a41b6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1
+    second: {fileID: 2100000, guid: c194c469f2a51324abc38f9eb7be2b5e, type: 2}
   materials:
-    importMaterials: 0
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -73,25 +176,47 @@ ModelImporter:
     globalScale: 1
     meshCompression: 2
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -101,11 +226,18 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
