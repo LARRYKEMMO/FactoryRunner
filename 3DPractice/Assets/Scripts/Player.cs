@@ -9,10 +9,12 @@ public class Player : MonoBehaviour
     private GameManager gameManager;
     public Vector3 collisionForce;
     public Animator animator;
+    private Quaternion OriginalRP;
     void Start()
     {
         gameManager = FindAnyObjectByType<GameManager>();
         //animator = gameManager.GetComponent<Animator>();
+        OriginalRP = gameObject.transform.rotation;
     }
 
     void Update()
@@ -32,7 +34,9 @@ public class Player : MonoBehaviour
             gameManager.EndGame();
         }
 
+
     }
+
 
     public void DisplayEndAnimation()
     {

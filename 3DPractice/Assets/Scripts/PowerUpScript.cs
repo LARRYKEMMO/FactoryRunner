@@ -7,13 +7,16 @@ public class PowerUpScript : MonoBehaviour
     // Start is called before the first frame update
     public Rigidbody PowerUpBody;
     public float Increment;
-    public Vector3 OriginalPosition;
-    public Quaternion OriginalRotation;
+    private Vector3 OriginalPosition;
+    private Quaternion OriginalRotation;
+    private bool Activate = false;
+    private MeshRenderer Mesh;
 
     void Start()
     {
         OriginalPosition = gameObject.transform.position;
         OriginalRotation = gameObject.transform.rotation;
+        Mesh = GetComponent<MeshRenderer>();
     }
 
     // Update is called once per frame
@@ -29,5 +32,25 @@ public class PowerUpScript : MonoBehaviour
         {
             gameObject.transform.position = new Vector3(Random.Range(-4, OriginalPosition.x), OriginalPosition.y, OriginalPosition.z);
         }
+
+
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            Mesh.enabled = false;
+            Activate = true;
+            Invoke("Reactivate", 1f);
+            Activate = false;
+
+        }
+    }
+
+    public void Reactivate()
+    {
+        Mesh.enabled = true;
+    }
+
 }

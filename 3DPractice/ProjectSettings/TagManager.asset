@@ -7,6 +7,7 @@ TagManager:
   - Obstacle
   - Ground
   - Floor
+  - PowerUp
   layers:
   - Default
   - TransparentFX
