@@ -28,7 +28,6 @@ public class AnimationController : MonoBehaviour
         }
         else
         {
-
             animator.SetBool("IsRunning", true);
             animator.SetBool("IsJumping", false);
         }

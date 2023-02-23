@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PowerUpScript : MonoBehaviour
 {
@@ -11,9 +12,14 @@ public class PowerUpScript : MonoBehaviour
     private Quaternion OriginalRotation;
     private bool Activate = false;
     private MeshRenderer Mesh;
+    public Material Material;
+    public Material Material2;
+    public GameObject GameObject;
+    private Player playerScript;
 
     void Start()
     {
+        playerScript = FindObjectOfType<Player>();
         OriginalPosition = gameObject.transform.position;
         OriginalRotation = gameObject.transform.rotation;
         Mesh = GetComponent<MeshRenderer>();
@@ -28,7 +34,7 @@ public class PowerUpScript : MonoBehaviour
             gameObject.transform.rotation = OriginalRotation;
         }
         PowerUpBody.AddForce(0, 0, Increment * Time.deltaTime, ForceMode.VelocityChange);
-        if(gameObject.transform.position.z < -600)
+        if(gameObject.transform.position.z <= -800)
         {
             gameObject.transform.position = new Vector3(Random.Range(-4, OriginalPosition.x), OriginalPosition.y, OriginalPosition.z);
         }
@@ -44,13 +50,24 @@ public class PowerUpScript : MonoBehaviour
             Activate = true;
             Invoke("Reactivate", 1f);
             Activate = false;
-
+            GameObject.GetComponent<Renderer>().material = Material;
+            playerScript.DeactivateCollision();
+            Invoke("DeactivateMaterial", 15f);
+           
         }
     }
 
     public void Reactivate()
     {
         Mesh.enabled = true;
+    }
+
+
+    public void DeactivateMaterial()
+    {
+        GameObject.GetComponent<Renderer>().material = null;
+        GameObject.GetComponent<Renderer>().material = Material2;
+        playerScript.activateCollision();
     }
 
 }

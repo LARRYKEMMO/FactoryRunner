@@ -41,9 +41,11 @@ public class Movement : MonoBehaviour
         //move obstacles backward
         if(obstacles != null) obstacles.move(forwardSpeed);
         if(building != null) building.move(forwardSpeed);
+            rb.AddForce(dirX * sidewardSpeed * Time.fixedDeltaTime, 0, 0, ForceMode.Impulse);
         if(dirX != 0)
         {
-            rb.AddForce(dirX * sidewardSpeed * Time.fixedDeltaTime, 0, 0, ForceMode.VelocityChange);
+            //Vector3 movement = new Vector3(dirX * sidewardSpeed * Time.fixedDeltaTime, 0, 0);
+            //transform.Translate(movement, Space.World);
         }
 
         bool isGrounded = Physics.Raycast(transform.position, Vector3.down, 0.1f);

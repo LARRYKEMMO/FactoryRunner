@@ -11,9 +11,11 @@ public class Obstacles : MonoBehaviour
 
     private float delay = 0;
     private List<GameObject> obstacleList;
+    private AudioSource Audio;
     void Start()
     {
         obstacleList = new List<GameObject>();
+        Audio = GetComponent<AudioSource>();
     }
 
     void removeOldObstacle()
@@ -63,6 +65,14 @@ public class Obstacles : MonoBehaviour
 
         }
 
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if(collision.collider.tag == "Ground")
+        {
+            Audio.Play();
+        }
     }
 
 }
