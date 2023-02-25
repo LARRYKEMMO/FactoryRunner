@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028396, g: 0.22571427, b: 0.30692327, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028364, g: 0.22571364, b: 0.306922, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -462,15 +462,15 @@ PrefabInstance:
       objectReference: {fileID: 289765421}
     - target: {fileID: 8411387279839045025, guid: c7d1527928e2a254a9ee8289a821ab7f, type: 3}
       propertyPath: downForce
-      value: 1.5
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 8411387279839045025, guid: c7d1527928e2a254a9ee8289a821ab7f, type: 3}
       propertyPath: jumpForce
-      value: 100
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 8411387279839045025, guid: c7d1527928e2a254a9ee8289a821ab7f, type: 3}
       propertyPath: jumpheight
-      value: 3
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8411387279839045025, guid: c7d1527928e2a254a9ee8289a821ab7f, type: 3}
       propertyPath: sidewardSpeed
@@ -482,11 +482,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8411387279839045054, guid: c7d1527928e2a254a9ee8289a821ab7f, type: 3}
       propertyPath: m_Mass
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8411387279839045054, guid: c7d1527928e2a254a9ee8289a821ab7f, type: 3}
       propertyPath: m_Constraints
       value: 88
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411387279839045055, guid: c7d1527928e2a254a9ee8289a821ab7f, type: 3}
+      propertyPath: m_Radius
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 8411387279839045055, guid: c7d1527928e2a254a9ee8289a821ab7f, type: 3}
       propertyPath: m_Enabled
